@@ -6,10 +6,6 @@
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -29,24 +25,18 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   <li>instill VC_redist.x86.exe from osTicket-Install-Files</li>
   <li>Install MySQL 5.5.62 from osTicket-Install-Filws</li>
 </ol>
-<img src="https://drive.google.com/file/d/1vBtME0jstxcK2-MloZrfXvB4m_Oh0SBA/view?usp=sharing" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/7f0948ec-4d26-4a99-862f-853ee5632333" height="80%" width="80%" alt="Installing SQL"/>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Installing a MySQL database for the osticketing system. Select normal setup, run configuration wizard (after installation), choose standard settings, and use root as both login and password.
 </p>
 <br />
-
+<img src="https://github.com/user-attachments/assets/a4373b20-37e4-4b49-b8e4-165b4ae39126" height="80%" width="80%" alt="Set up PHP manager"/>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Open IIS (Information Internet Service) as administrator and navigate to sites-default-osTicket. Open the PHP management and choose to activate or disable extension. After activating some extensions, reload osTickt in the browser.
 </p>
 <br />
-
+<img src="https://github.com/user-attachments/assets/a59c4e64-7a6a-4f0e-816e-d454b2c1bbbf" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Open Heidi SQL and create a database called "osTicket", fill in the information on the osTicket browser including email, and password, and create a primary administrator account. Include the database recently created by Heidi
 </p>
 <br />
